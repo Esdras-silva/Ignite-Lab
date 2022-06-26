@@ -1,4 +1,4 @@
-import { gql, useMutation } from "@apollo/client";
+import imgUrl from '../assets/Group-7735.png'
 import { useState, FormEvent} from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
@@ -67,7 +67,7 @@ return(
             </div>
         </div>
 
-        <img src="/src/assets/Group-7735.png" className="block xl:mt-10 xl:inline"  alt="" />
+        <img src={imgUrl} className="block xl:mt-10 xl:inline"  alt="" />
     </div>
 )
 }
